@@ -1,0 +1,12 @@
+<div>
+  <h2>Rate your favorite dish:</h2>
+  <small>* you can rate unlimited times, but it will be reset after refresh</small>
+</div>
+<ul id="dishes">
+  <li *ngFor="let dish of dishes | sortByRating : '-id', let i = index"
+      (click)="increaseRating(dish.id)">
+    <span class='rating'>{{dish.rating}}</span>
+    <span class="name" [class.started]="started && dish.rating >= 1">{{i + 1}}. {{dish.name}}</span>
+  </li>
+</ul>
+
