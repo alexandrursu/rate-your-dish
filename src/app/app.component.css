@@ -5,31 +5,6 @@
   font-size: 16px;
 }
 
-
-/* Large desktop */
-@media (min-width: 980px) {
-  h2 {
-    font-weight: 900;
-    font-size: 40px;
-    text-align: right;
-    margin-top: 10px;
-  }
-
-  .left-side {
-    float: left;
-    width: 20%;
-  }
-  .right-side {
-    float: left;
-    width: 80%;
-  }
-
-  header {
-  //margin-bottom: 10px;
-  }
-}
-
-
 h2 {
   text-align: center;
   margin-bottom: 0px;
