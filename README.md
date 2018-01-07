@@ -4,6 +4,8 @@ You can access live [DEMO here](https://alexandrursu.github.io/rate-your-dish/):
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
+Make sure you have `Node.js` installed on your PC. Install all dependencies using `npm install`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
